@@ -7,13 +7,41 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <title>CatsLover</title>
-
-  <script type="module" crossorigin src="/DEV003-social-network/assets/index.02aac6a0.js"></script>
+  
+  <script type="module" crossorigin src="/DEV003-social-network/assets/index.9eb700df.js"></script>
+  <link rel="stylesheet" href="/DEV003-social-network/assets/index.cbd8a1a7.css">
 </head>
 
 <body>
-  <button id="btnGoogle">Sign in Google</button>
-  <button id="btnLogout">Logout Google</button>
+  <header>
+    <h1 class = "title-page">CATSLOVER</h1>
+  </header>
+  <nav></nav>
+  <main>
+    <section id="scAccess">
+      <div class="email">
+        <label>Correo:</label><br>
+        <input type="text" id="txtMail" autocomplete="off" placeholder="Ingresa tu correo"><br>
+      </div>
+      <div class="password">
+        <label>Contraseña:</label><br>
+        <input type="password" id="txtPass" autocomplete="off" placeholder="Ingresa tu Contraseña"><br>
+      </div>
+      <div class="buttons">
+        <button class="btnRegister" id="btnRegister">Registrar</button>
+         <button class="btnRegister" id="btnLogin">Ingresar</button><br>
+         <img src="/DEV003-social-network/assets/googleBtn.ed7ea1eb.png" width="100%" height="100%" id="btnGoogle">
+      </div> 
+    </section>
+    <section id="scWelcome">
+      Bienvenido a CatsLover<br>
+      
+      <button class="btnRegister" id="btnLogout">Cerrar Sesion</button>
+    </section>
+  </main>
+  <footer> 
+    <p> © January 2023 Developed by Chris, María and Sofía </p>
+  </footer>
   
 </body>
 

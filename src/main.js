@@ -70,7 +70,7 @@ export const Home = () => {
   secHome.appendChild(buttonGoogle);
   return secHome;
 };
-
+//** */
 // REGISTER
 export const Register = () => {
   const secHome = document.createElement('sec');

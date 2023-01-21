@@ -1,5 +1,6 @@
+/* eslint-disable import/no-cycle */
 // HOME
-// eslint-disable-next-line import/no-cycle
+
 import { onNavigate } from './router.js';
 import {
   loginWithGoogle,

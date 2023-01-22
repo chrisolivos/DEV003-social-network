@@ -1,6 +1,5 @@
 /* eslint-disable import/no-cycle */
 // HOME
-
 import { onNavigate } from './router.js';
 import {
   loginWithGoogle,
@@ -71,7 +70,7 @@ export const Home = () => {
   secHome.appendChild(buttonGoogle);
   return secHome;
 };
-//** */
+
 // REGISTER
 export const Register = () => {
   const secHome = document.createElement('sec');
@@ -122,4 +121,3 @@ export const googleLogin = () => {
 
   return secHome;
 };
-  

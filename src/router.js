@@ -1,9 +1,8 @@
-/* eslint-disable import/no-cycle */
 /* import { Home } from './components/Home.js';
 import { Register } from './components/Register.js';
 import { Login } from './components/Login.js'; */
 
-// eslint-disable-next-line import/no-unresolved
+// eslint-disable-next-line import/no-cycle
 import {
   Home, Login, googleLogin, Register,
 } from './main.js';
